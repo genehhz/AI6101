@@ -1,4 +1,4 @@
-# ntu--AI6101 Deep Learning and Application under NTU, SCSE.
+# Nanyang Technological University (NTU), SCSE, AI6101 Deep Learning and Application.
 
 Project Assignment Submission for module AI6101, Deep Learning and Application.
 
