@@ -8,8 +8,8 @@ Project Assignment Submission for module AI6101, Deep Learning and Application.
   
 
 -  Data Set 2: Singapore Exchange Limited (S68.SI) 
-  - Obtained from [UCI Machine Learning - Higher Education Students Performance ](https://finance.yahoo.com/quote/S68.SI/history?p=S68.SI)
-  - Processed Data can refer to [dataset]
+  - Obtained from [Yahoo Finance, S68.SI](https://finance.yahoo.com/quote/S68.SI/history?p=S68.SI)
+  - Processed Data can refer to [dataset](dataset)
 
 ## Exploration on Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting 
 
