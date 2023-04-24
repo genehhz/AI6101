@@ -9,6 +9,20 @@ Zhao Yuhan, zhao0431@e.ntu.edu.sg, Wang Qiyue, wang1901@e.ntu.edu.sg, Wang Yutia
 In this project, we choose Informer as the research object. Informer is a prediction model based on the Transformer structure for long-term sequences. Informer uses methods such as multi-head self-attention mechanism, depthwise separable convolution, periodic attention mechanism, and stacked structure, which can enhance the robustness of the model and integrate Global and key local information, and consider different time scales, to achieve effective model-ing and forecasting of long sequences.
 After carefully studying the paper and related work, we reproduced the entire work based on our own understand-ing, discussed the impact of different optimizers and loss functions on the model on the original data set, and on stock prices, S68.SI) as new data sets to explore Informer Generalization ability and existing problems.
 
+## Model Training and Inference
+
+1. Clone/download the entire file
+3. Change the hyperarameters in the arg.parser accordingly
+2. Run the "main_informer.py" 
+
+or 
+
+1. Run simply run below:
+
+```bash
+python main_informer.py --data WTH --data_path WTH.csv --optimizer adam --lossfunction = mse
+```
+
 ## Data Source
 -  Data Set 1: Weather Forecast
     - Obtained from [National Centers for Environmental Information](https://www.ncei.noaa.gov/data/local-climatological-data/)
