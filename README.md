@@ -3,13 +3,16 @@
 Project Assignment Submission for module AI6101, Deep Learning and Application.
 
 ## Data Source
--  Data Set 1: WTH, Meteorological
-    - Obtained from XXX
+-  Data Set 1: Weather Forecast
+    - Obtained from [National Centers for Environmental Information](https://www.ncei.noaa.gov/data/local-climatological-data/)
   
+-  Data Set 2: Global Land and Temperature Average
+    - Obtained from [Data.world, Global Climate Change Data](https://data.world/data-society/global-climate-change-data)
+    - Processed Data can refer to [dataset](dataset), labelled as GT.csv
 
--  Data Set 2: Singapore Exchange Limited (S68.SI) 
+-  Data Set 3: Singapore Exchange Limited (S68.SI) 
     - Obtained from [Yahoo Finance, S68.SI](https://finance.yahoo.com/quote/S68.SI/history?p=S68.SI)
-    - Processed Data can refer to [dataset](dataset)
+    - Processed Data can refer to [dataset](dataset), labelled as S68_4.csv
 
 ## Exploration on Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting 
 
