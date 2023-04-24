@@ -12,14 +12,15 @@ After carefully studying the paper and related work, we reproduced the entire wo
 ## Data Source
 -  Data Set 1: Weather Forecast
     - Obtained from [National Centers for Environmental Information](https://www.ncei.noaa.gov/data/local-climatological-data/)
+    - Processed Data can refer to [dataset](dataset), labelled as [dataset](WTH.csv)
   
 -  Data Set 2: Global Land and Temperature Average
     - Obtained from [Data.world, Global Climate Change Data](https://data.world/data-society/global-climate-change-data)
-    - Processed Data can refer to [dataset](dataset), labelled as GT.csv
+    - Processed Data can refer to [dataset](dataset), labelled as [dataset](GT.csv)
 
 -  Data Set 3: Singapore Exchange Limited (S68.SI) 
     - Obtained from [Yahoo Finance, S68.SI](https://finance.yahoo.com/quote/S68.SI/history?p=S68.SI)
-    - Processed Data can refer to [dataset](dataset), labelled as S68_4.csv
+    - Processed Data can refer to [dataset](dataset), labelled as [dataset](S68_4.csv)
 
 ## Contributing
 
