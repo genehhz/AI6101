@@ -12,13 +12,12 @@ After carefully studying the paper and related work, we reproduced the entire wo
 ## Model Training and Inference
 
 1. Clone/download the entire file
-3. Change the hyperarameters in the arg.parser accordingly
+3. Change the hyperparameters in the arg.parser accordingly
 2. Run the "main_informer.py" 
 
 or 
 
-1. Run simply run below:
-
+1. Simply run in right environment
 ```bash
 python main_informer.py --data WTH --data_path WTH.csv --optimizer adam --lossfunction = mse
 ```
