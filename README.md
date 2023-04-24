@@ -1,6 +1,8 @@
 # Nanyang Technological University (NTU), SCSE, AI6101 Deep Learning and Application.
 
-Project Assignment Submission for module AI6101, Deep Learning and Application.
+Project Assignment Submission for module AI6103, Deep Learning and Application.
+
+Zhao Yuhan, zhao0431@e.ntu.edu.sg, Wang Qiyue, wang1901@e.ntu.edu.sg, Wang Yutian, wang1910@e.ntu.edu.sg, Eugene Ho, eho010@e.ntu.edu.sg, Koo Chia Wei, ckoo004@e.ntu.edu.sg
 
 ## Data Source
 -  Data Set 1: Weather Forecast
