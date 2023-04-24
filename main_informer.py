@@ -19,7 +19,7 @@ parser.add_argument('--target', type=str, default='T', help='target feature in S
 parser.add_argument('--freq', type=str, default='h', help='freq for time features encoding, options:[s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h')
 parser.add_argument('--checkpoints', type=str, default='./checkpoints/', help='location of model checkpoints')
 parser.add_argument('--length', type=str, default=3, help='length X pred_length')
-parser.add_argument('--decay_rate', type=str, default=0.5, help='fix decay rate for learning rate')
+parser.add_argument('--decay_rate', type=str, default=0.5, help='fix decay rate for learning rate, if 0.05, means every epoch, the learning rate will decay by 95%')
 
 
 # Informer decoder input: concat[start token series(label_len), zero padding series(pred_len)]
@@ -113,9 +113,6 @@ for s_l in args.s_layers.replace(' ', '').split(','):
 args.s_layers = s_layers_list
 args.detail_freq = args.freq
 args.freq = args.freq[-1:]
-
-#print('Args in experiment:')
-#print(args)
 
 Experiments = Exp_Informer
 

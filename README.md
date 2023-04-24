@@ -12,12 +12,15 @@ After carefully studying the paper and related work, we reproduced the entire wo
 ## Model Training and Inference
 
 1. Clone/download the entire file
-3. Change the hyperparameters in the arg.parser accordingly
-2. Run the "main_informer.py" 
+2. Download the necessary package from requirements in requirements.txt
+3. Open main_informer.py in any IDE
+4. Change the --data and --data_path file to the data you want to run in arg.parser accordingly
+5. Change the hyperparameters in the arg.parser accordingly
+6. Run the "main_informer.py" in IDE
 
 or 
 
-1. Simply run in right environment
+1. Simply run in right environment with the requirements in requirements.txt installed
 ```bash
 python main_informer.py --data WTH --data_path WTH.csv --optimizer adam --lossfunction = mse
 ```
@@ -76,4 +79,15 @@ pip install -r requirements.txt
 # freeze dependencies
 pip freeze > requirements.txt
 ```
+
+## Reference and Acknowlegdement
+
+Cirstea Razvan-Gabriel [et al.] Triformer: Triangular, Variable-Specific Attentions for Long Sequence Multivariate Time Series Forecasting--Full Version [Journal] // arXiv preprint arXiv. - 2022. - 2204.13767.
+Feng Xiaoyu [et al.] SEFormer: Structure Embedding Transformer for 3D Object Detection [Journal] // arXiv preprint arXiv. - 2022. - 2209.01745.
+Huber Peter J. Robust Estimation of a Location Parameter [Book Section] // Breakthroughs in Statistics: Methodology and Distribution / book auth. Kotz Samuel and Johnson Norman L.. - New York : Springer New York, NY, 1992.
+Luo Liangchen [et al.] Adaptive Gradient Methods with Dynamic Bound of Learning Rate [Journal] // arXiv preprint arXiv. - 2019. - 1902.09843.
+NCEI Index of /data/local-climatological-data [Online] // National Centers for Environmental Information. - January 5, 2023. - April 1, 2023. - https://www.ncei.noaa.gov/data/local-climatological-data/.
+Society Data Global Climate Change Data [Online] // data.world. - 2015. - April 1, 2023. - Global Climate Change Data.
+Yahoo Finance Singapore Exchange Limited (S68.SI) [Online] // Yahoo FInance. - 2023. - April 15, 2023. - https://finance.yahoo.com/quote/S68.SI/history?p=S68.SI.
+Zeng Pengyu [et al.] Muformer: A long sequence time-series forecasting model based on modified multi-head attention [Journal] // Knowledge-Based Systems. - October 27, 2022. - 109584 : Vol. 254.
 
